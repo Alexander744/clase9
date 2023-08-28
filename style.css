@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@media (max-width: 800px) {
+    .contenedor  {
+        flex-direction: column;
+        top: 230px;
+    }
+    
+    .contenedor2 {
+        flex-direction: column;
+        top: 750px;
+    }
+    
+    
+    .cajafinal{
+        top: 1000px;
+       
+    }
+    
+
+}
+  
+.emcabezado {
+    background-color: #D1891C; 
+    height: 50px;
+    width: 100%;
+    box-sizing: content-box;
+    margin-bottom:  0px;
+    font-size: 30px;
+}  
+
+.titulo {
+    
+    color: black;
+    background-color: #00669f;
+    height: 60px;
+    width: 100%;
+    margin: 0px;
+    
+    padding-left: 20px;
+    padding-top: 10px;
+    z-index: 10;
+    color: white;
+}   
+/* contenedor aqui */
+.contenedor {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    margin: 80px 40px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+}
+/* caja 1 */ /* caja 2 */
+.caja {
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    position: relative;
+    align-content: center;
+    top: 30px;
+    margin: 8%;
+    background-color: white;
+    width: 300px;
+    height: 530px;
+    border: white;
+}
+.caja2 {
+    position: relative;
+    z-index: 2;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px; 
+    bottom: 50px;
+    padding-left: 90px;
+   
+}
+.caja3 {
+    position: relative;
+    z-index: 10;
+    bottom: 300px;
+    color: red;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.caja4 {
+    position: relative;
+    z-index: 4;
+    text-align: center;
+    bottom: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caja5 {
+    position: relative;
+    z-index: 5;
+    bottom: 80px;
+    padding-left: 15px;
+}
+.caja6 {
+    background-color: #00669f;
+    position: relative;
+    color: white;
+    align-items: center;
+    text-align: center;
+    border: solid 1px blue;
+    width: 90px;
+    height: 45px;
+    bottom: 50px;
+    left: 95px;
+    padding-top: 10px;
+    
+}
+.contenedor2 {
+   
+    position: relative;
+    background-color: white;
+    margin: 80px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+
+}
+
+/* caja3 *//* caja 4 */
+.cajab {
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25);
+    align-content: center;
+    margin: 8%;
+    background-color: white;
+    width: 300px;
+    height: 530px;
+    
+   
+    
+}
+.cajab2 {
+    position: relative;
+    z-index: 2;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px; 
+    bottom: 50px;
+    padding-left: 90px;
+}
+.cajab3 {
+    position: relative;
+    z-index: 10;
+    bottom: 300px;
+    color: red;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.cajab4 {
+    position: relative;
+    z-index: 4;
+    text-align: center;
+    bottom: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cajab5 {
+    position: relative;
+    z-index: 5;
+    bottom: 80px;
+    padding-left: 15px;
+}
+.cajab6 {
+    background-color: #00669f;
+    position: relative;
+    color: white;
+    align-items: center;
+    text-align: center;
+    border: solid 1px blue;
+    width: 90px;
+    height: 45px;
+    bottom: 50px;
+    left: 95px;
+    padding-top: 10px;
+    
+}
+.cajafinal {
+    position: relative;
+    width: 100%;
+   
+}
+.batman {
+    align-items: center;
+    border-radius: 60px;
+    height: 115px;
+    width: 115px; 
+}
+.harley {
+    align-items: center;
+    border-radius: 60px;
+    height: 115px;
+    width: 115px; 
+}
+.botton {
+    color: white;
+}
+footer {
+    position: relative;
+    padding: 25px;
+    height: 30px;
+    color: white;
+    background-color: #00669f;
+    top: 85%;
+    width: 100%;
+}
+.git {
+    color:  white;
+    text-align: right;
+    justify-content: end;
+    display: flex;
+    position: relative;
+    bottom: 25PX;
+    font-size: 2rem;
+    display: flex;
+}
